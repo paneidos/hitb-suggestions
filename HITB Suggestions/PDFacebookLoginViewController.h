@@ -10,4 +10,5 @@
 
 @interface PDFacebookLoginViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView* bgView;
 @end

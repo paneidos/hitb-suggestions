@@ -26,6 +26,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImage * backgroundImage;
+    if ([[UIScreen mainScreen] bounds].size.height == 568)
+    {
+        backgroundImage = [UIImage imageNamed:@"ConnectBG-568h@2x.png"];
+    }
+    else
+    {
+        backgroundImage = [UIImage imageNamed:@"ConnectBG.png"];
+    }
+    self.bgView.image = backgroundImage;
     // Do any additional setup after loading the view.
 }
 

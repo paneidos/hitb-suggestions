@@ -29,6 +29,9 @@
 		CA38E8DA19374DC900AEA6D0 /* PDFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA38E8D919374DC900AEA6D0 /* PDFriendsTableViewController.m */; };
 		CA38E8DD1937590500AEA6D0 /* PDAddFriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA38E8DC1937590500AEA6D0 /* PDAddFriendTableViewController.m */; };
 		CA38E8E0193764F500AEA6D0 /* PDResponseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA38E8DF193764F500AEA6D0 /* PDResponseTableViewController.m */; };
+		CA38E8E31937787600AEA6D0 /* ConnectBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA38E8E11937787600AEA6D0 /* ConnectBG@2x.png */; };
+		CA38E8E41937787600AEA6D0 /* ConnectBG-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA38E8E21937787600AEA6D0 /* ConnectBG-568h@2x.png */; };
+		CA38E8E6193778F700AEA6D0 /* ConnectBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CA38E8E5193778F700AEA6D0 /* ConnectBG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		CA38E8DC1937590500AEA6D0 /* PDAddFriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDAddFriendTableViewController.m; sourceTree = "<group>"; };
 		CA38E8DE193764F500AEA6D0 /* PDResponseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDResponseTableViewController.h; sourceTree = "<group>"; };
 		CA38E8DF193764F500AEA6D0 /* PDResponseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDResponseTableViewController.m; sourceTree = "<group>"; };
+		CA38E8E11937787600AEA6D0 /* ConnectBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConnectBG@2x.png"; sourceTree = "<group>"; };
+		CA38E8E21937787600AEA6D0 /* ConnectBG-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ConnectBG-568h@2x.png"; sourceTree = "<group>"; };
+		CA38E8E5193778F700AEA6D0 /* ConnectBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConnectBG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,9 @@
 		CA38E89A19372A1C00AEA6D0 /* HITB Suggestions */ = {
 			isa = PBXGroup;
 			children = (
+				CA38E8E5193778F700AEA6D0 /* ConnectBG.png */,
+				CA38E8E11937787600AEA6D0 /* ConnectBG@2x.png */,
+				CA38E8E21937787600AEA6D0 /* ConnectBG-568h@2x.png */,
 				CA38E8A319372A1C00AEA6D0 /* PDAppDelegate.h */,
 				CA38E8A419372A1C00AEA6D0 /* PDAppDelegate.m */,
 				CA38E8A619372A1C00AEA6D0 /* Main.storyboard */,
@@ -273,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA38E8B019372A1C00AEA6D0 /* Images.xcassets in Resources */,
+				CA38E8E41937787600AEA6D0 /* ConnectBG-568h@2x.png in Resources */,
+				CA38E8E6193778F700AEA6D0 /* ConnectBG.png in Resources */,
+				CA38E8E31937787600AEA6D0 /* ConnectBG@2x.png in Resources */,
 				CA38E89F19372A1C00AEA6D0 /* InfoPlist.strings in Resources */,
 				CA38E8A819372A1C00AEA6D0 /* Main.storyboard in Resources */,
 			);

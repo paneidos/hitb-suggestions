@@ -204,18 +204,26 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell;
+    PFObject* topic;
     if(indexPath.section == 0)
     {
         cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell" forIndexPath:indexPath];
-        PFObject* object = self.myTopics[indexPath.row];
-        cell.textLabel.text = object[@"topic"];
+        topic = self.myTopics[indexPath.row];
     }
     else
     {
         cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
         PFObject* topicUser = self.otherTopics[indexPath.row];
-        PFObject* topic = topicUser[@"topic"];
-        cell.textLabel.text = topic[@"topic"];
+        topic = topicUser[@"topic"];
+    }
+    cell.textLabel.text = topic[@"topic"];
+    if(topic[@"resultId"])
+    {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else
+    {
+        cell.accessoryType = UITableViewCellAccessoryNone;
     }
     return cell;
 }
